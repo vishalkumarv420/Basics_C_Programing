@@ -13,6 +13,6 @@ int main(){
             osum = osum + i;
         }
 
-printf("Sum of Even Numbar %d", esum);
+printf("Sum of Even Numbar %d\n", esum);
 printf("Sum of Odd Number %d",osum);
 }
