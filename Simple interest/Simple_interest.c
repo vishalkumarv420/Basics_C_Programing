@@ -9,7 +9,7 @@ int main(){
     printf("Enter of Interest: ");
     scanf("%f", &R);
     
-    printf("Enter T (in years): ");
+    printf("Enter Time (in years): ");
     scanf("%f", &T);
     
     I = (P *R * T) / 100;
