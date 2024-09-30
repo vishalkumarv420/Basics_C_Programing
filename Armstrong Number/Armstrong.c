@@ -1,4 +1,7 @@
+//Write a program to check whether the given number is Armstrong or not.
+
 #include<stdio.h>
+#include<conio.h>
 void main(){
 int num, sum=0, rem, cube, save;
 printf("Enter The any Number: ");

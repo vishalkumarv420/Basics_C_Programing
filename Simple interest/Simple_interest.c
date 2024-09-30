@@ -1,5 +1,7 @@
+// Write a program to calculate simple interest.
+
 #include<stdio.h>
-int main(){
+void main(){
     float P,R,T,I;
     
     // Input from user
@@ -16,5 +18,5 @@ int main(){
    
     printf("Simple Interest: %.2f\n", I);
     
-    return 0;
+    
 }

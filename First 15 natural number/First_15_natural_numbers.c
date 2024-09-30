@@ -1,3 +1,5 @@
+//Write a program to generate first 15 natural number.
+
 #include<stdio.h>
 
 int main(){

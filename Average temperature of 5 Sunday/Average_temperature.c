@@ -1,17 +1,26 @@
+//Write a program to calculate the average temperature of 5 Sunday.
+
 #include<stdio.h>
-int main(){
-    float temp, sum = 0, avg;
-    int i;
+#include<conio.h>
+void main(){
+    float a,b,c,d,e,f;
 
-    for(i = 1; i <= 5; i++){
-        printf("Enter temperature of Sunday %d: ", i);
-        scanf("%f", &temp);
-        sum += temp;  
-    }
+    printf("Enter Temprature of Day 1: ");
+    scanf("%d",&a);
 
-    avg = sum / 5;
+    printf("Enter Temprature of Day 2: ");
+    scanf("%d",&b);
 
-    printf("Average temperature of 5 Sundays: %.2f\n", avg);
-    
-    return 0;
+    printf("Enter Temprature of Day 3: ");
+    scanf("%d",&c);
+
+    printf("Enter Temprature of Day 4: ");
+    scanf("%d",&d);
+
+    printf("Enter Temprature of Day 5: ");
+    scanf("%d",&e);
+
+   f=(a+b+c+d+e)/5;
+
+   printf("Average Temperature of 5 Day %d",f);
 }

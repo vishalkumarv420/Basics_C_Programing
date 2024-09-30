@@ -1,3 +1,5 @@
+//Write a program to check whether the given number is leap year or not.
+
 #include<stdio.h>
 int main(){
     int y;

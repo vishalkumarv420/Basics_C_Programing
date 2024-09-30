@@ -1,4 +1,7 @@
+//Write a program to find the sum of even number and odd number
+
 #include<stdio.h>
+#include<conio.h>
 int main(){
     int i,n, esum=0,osum=0;
     printf("Enter value of Number ");

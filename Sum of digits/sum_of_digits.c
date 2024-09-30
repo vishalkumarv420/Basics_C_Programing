@@ -1,4 +1,7 @@
+//Write a program to find the sum of digits of a number.
+
 #include<stdio.h>
+#include<conio.h>
 
 int main(){
     int num, sum = 0, digit;

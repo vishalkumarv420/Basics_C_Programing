@@ -1,3 +1,5 @@
+//Write a program to swap two variables without taking third variable
+
 #include<stdio.h>
 int main(){
     int a, b;

@@ -1,3 +1,5 @@
+//Write a program to print the table of a number.
+
 #include<stdio.h>
 int main(){
     int number, i;
